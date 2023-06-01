@@ -4,7 +4,9 @@ html {
   font-family: sans-serif;
 }
 
-
+.section3{
+  position: relative;
+}
 .publish{
   display: flex;
   justify-content: space-around;
@@ -19,6 +21,11 @@ html {
 
 body {
   margin: 0;
+}
+
+
+.aboutur p{
+  font-size: 50px;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -61,7 +68,7 @@ display: none;
 
 
   .div-vision{
-    background-image: url("../assets/Fondo-4.png");
+    background-image: url("assets/Fondo-4.png");
   }
   
   .vision-text-paragrah{
@@ -1953,7 +1960,7 @@ font-size: 24px;
   
 
   .div-vision{
-    background-image: url("../assets/Fondo-4.png");
+    background-image: url("assets/Fondo-4.png");
   }
 
   .vision-father{
@@ -2433,7 +2440,7 @@ text-align: center;
   
 
   .div-vision{
-    background-image: url("../assets/Fondo-4.png");
+    background-image: url("assets/Fondo-4.png");
   }
 
   .vision-father{
@@ -4289,7 +4296,7 @@ figure {
 }
 
 .section.banner-home-1 {
-  background-image: url("../assets/Fondo-4.png");
+  background-image: url("./assets/Fondo-4.png");
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9497,10 +9504,7 @@ padding-top: 30px;
 }
 
 @media screen and (min-width: 1280px) {
-  .section {
-    padding-top: 130px;
-    padding-bottom: 130px;
-  }
+
 
   .wrapper{
     padding-top:80px ;
@@ -12227,10 +12231,6 @@ padding-top: 30px;
     font-size: 24px;
   }
 
-  .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
 
   .section.without-top-spacing {
     padding-top: 0;
@@ -13084,7 +13084,7 @@ padding-top: 30px;
   }
 
   .div-vision{
-    background-image: url("../assets/Fondo-4.png");
+    background-image: url("assets/Fondo-4.png");
   }
 
   .grid-system-wrapper {

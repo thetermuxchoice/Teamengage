@@ -12,6 +12,7 @@ const $second=document.getElementById('second')
 const $last=document.getElementById('last')
 let w=window.innerWidth
 
+/*boton de cierre de modal*/ 
 
 $btnClose.addEventListener("click",(e)=>{
     e.preventDefault()
@@ -19,6 +20,10 @@ $btnClose.addEventListener("click",(e)=>{
     
 })
 
+/*Boton de inicio en el slider*/
+
+/*se especifica con la propiedad innerWidth del objeto Window cual es la resolución de la pantalla, 
+para posteriormente con una serie de if else, definir que cambios de estilos se aplicaran con el evento click*/
 
 $btnSlide.addEventListener("click",(e)=>{
     e.preventDefault()
@@ -38,8 +43,8 @@ $btnSlide.addEventListener("click",(e)=>{
     } else if(w >= 1280 && w < 1440 ){
         $first.style.marginLeft='-50%'
         $first.style.transition='margin-left 1s'
-        $second.style.marginLeft='375px'
-        $last.style.marginRight='70px'
+        $second.style.marginLeft='395px'
+        $last.style.marginRight='170px'
         $last.style.marginleft='20px'
         $item.style.marginRight='20px'
         $btnSlide.style.display="none"
@@ -51,7 +56,7 @@ $btnSlide.addEventListener("click",(e)=>{
         $first.style.marginLeft='-30%'
         $first.style.transition='margin-left 1s'
         $second.style.marginLeft='245px'
-        $last.style.marginLeft='2%'
+        $last.style.marginLeft='4%'
         $btnSlide.style.display="none"
         $btnSlide2.style.visibility="visible"
         $btnSlide2.style.opacity="100%"
@@ -80,6 +85,9 @@ $btnSlide.addEventListener("click",(e)=>{
         $btnSlide2.style.transition='opacity 1.5s'
     }  
 })
+
+
+/*Boton de regreso en el slider*/
 
 $btnSlide2.addEventListener("click",(e)=>{
     e.preventDefault()
@@ -120,7 +128,7 @@ $btnSlide2.addEventListener("click",(e)=>{
         $first.style.marginLeft='40%'
         $first.style.transition='margin-left 1s'
         $second.style.marginLeft='0%'
-        $last.style.marginLeft='0%'
+        $last.style.marginLeft='4%'
         $item.style.marginRight='10%'
         $btnSlide2.style.visibility="hidden"
         $btnSlide2.style.opacity="0%"
@@ -129,7 +137,7 @@ $btnSlide2.addEventListener("click",(e)=>{
         $first.style.marginLeft='90%'
         $first.style.transition='margin-left 1s'
         $second.style.marginLeft='225px'
-        $last.style.marginLeft='30px'
+        $last.style.marginLeft='40px'
         $last.style.backgroundColor='red'
         $btnSlide.style.display="none"
         $btnSlide2.style.visibility="visible"
@@ -138,7 +146,7 @@ $btnSlide2.addEventListener("click",(e)=>{
     }
 })
 
-
+/*Botones para abrir la modal */
 
 $btnModal.addEventListener("click",(e)=>{
     e.preventDefault()
