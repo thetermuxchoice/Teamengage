@@ -92,7 +92,7 @@ display: none;
     }
   
   .vision-text-paragrah1{
-  text-align: justify;
+  text-align: center;
   width: 100%;
   display: block;
   color: #000;
@@ -1071,7 +1071,7 @@ textarea.w-input, textarea.w-select {
     }
   
   .vision-text-paragrah1{
-  text-align: justify;
+  text-align: center;
   width: 100%;
   display: block;
   color: #000;
@@ -1634,7 +1634,7 @@ display: none;
   }
 
 .vision-text-paragrah1{
-text-align: justify;
+text-align: center;
 width: 100%;
 display: block;
 color: #000;
@@ -1897,71 +1897,22 @@ font-size: 24px;
     font-size:26px;
   }
   
-
-  .wrapper{
-    padding-top:80px ;
-    padding-bottom:80px ;
+  .block-info{
     display: flex;
-    width: 100%;
     justify-content: space-around;
-    overflow-x: hidden;
+    width: 100%;
+    padding-top: 20px;
   }
 
-  .vector2{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top:65%;
-    right:1%;
-    z-index:1006;
-  }
-  
-  .button-vector3{
-    visibility: hidden;
-    opacity: 0%;
-  }
-
-
-  .vector3{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top:64%;
-    left:1.5%;
-    z-index:1006;
-  }
-
-
-  .wrapper-item{
-    min-width: 25%;
-    border-radius: 20px;
-    margin-right: 4%;
-    line-height: 110px;
+  .block-info div{
+    background-color: #ffffff;
+    width: 20%;
+    box-shadow: 0 5px 25px rgba(172, 28, 28, 0.25);
+    border-radius: 10px;
     text-align: justify;
-    padding: 10px 15px 0px 15px;
-    background-color: #FFF;
-    font-size: 14px;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, .25);
+    padding: 5px 25px;
   }
 
-  .item-3{
-    margin-right: 18%;
-  }
-
-  .wrapper-item:first-child{
-    margin-left: 50%;
-  }
-  
-  .last-item{
-    margin-left: 5%;
-  }
-
-  .wrapper-item:last-child{
-    margin-left: 35%;
-  }
-
-
-  
 
   .div-vision{
     background-image: url("assets/Fondo-4.png");
@@ -9580,12 +9531,12 @@ padding-top: 30px;
     }
   
   .vision-text-paragrah1{
-  text-align: justify;
+  text-align: center;
   width: 100%;
   display: block;
   color: #000;
   margin: auto;
-  padding-left: 50px;
+  padding-left: 40px;
   font-size: 28px;
   }
   
@@ -10381,12 +10332,14 @@ padding-top: 30px;
     }
   
   .vision-text-paragrah1{
-  text-align: justify;
-  width: 100%;
+  text-align: center;
+  width: 110%;
   display: block;
   color: #000;
   margin: auto;
-  padding-left: 80px;
+  padding-left: 20px;
+  line-height: 40px;
+  padding-right: 20px;
   font-size: 34px;
   }
   
@@ -10655,7 +10608,7 @@ padding-top: 30px;
     }
   
   .vision-text-paragrah1{
-  text-align: justify;
+  text-align: center;
   width: 100%;
   display: block;
   color: #000;
