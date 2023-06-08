@@ -932,7 +932,7 @@ textarea.w-input, textarea.w-select {
   }
   
   .slider{
-    background-image: url('./assets/Danelle-3.png');
+    background-image: url('assets/Danelle-3.png');
     background-size: cover;
     height: 350px;
     width: 260px;
@@ -980,7 +980,7 @@ textarea.w-input, textarea.w-select {
   }
   
   .slider{
-    background-image: url('./assets/Danelle-3.png');
+    background-image: url('assets/Danelle-3.png');
     background-size: cover;
     height: 320px;
     width: 260px;
@@ -1988,7 +1988,7 @@ font-size: 24px;
 }
 
   .slider{
-    background-image: url('./assets/Danelle-3.png');
+    background-image: url('assets/Danelle-3.png');
     background-size: cover;
     height: 280px;
     width: 210px;
@@ -4194,7 +4194,7 @@ text-align: center;
   }
   
   .slider{
-    background-image: url('./assets/Danelle-3.png');
+    background-image: url('assets/Danelle-3.png');
     background-size: cover;
     height: 260px;
     width: 180px;
@@ -6976,10 +6976,10 @@ position: absolute;
 
 @keyframes animate{
   40%{
-    background-image: url('/assets/Mike-3.png');
+    background-image: url('assets/Mike-3.png');
   }
   80%{
-    background-image: url('/assets/Danelle-3.png');
+    background-image: url('assets/Danelle-3.png');
   }
 }
 
@@ -9777,7 +9777,7 @@ transform: rotate(90deg);
   }
   
   .slider{
-    background-image: url('./assets/Danelle-3.png');
+    background-image: url('assets/Danelle-3.png');
     background-size: cover;
     height: 550px;
     width: 450px;
@@ -10628,7 +10628,7 @@ transform: rotate(90deg);
   }
 
   .fondo{
-    background-image: url("./assets/Ellipse\ 13.png");
+    background-image: url("assets/Ellipse\ 13.png");
     background-size:contain;
     background-repeat: no-repeat;
     width: 85%;
@@ -10647,7 +10647,7 @@ transform: rotate(90deg);
   }
 
   .slider{
-    background-image: url('./assets/Danelle-3.png');
+    background-image: url('assets/Danelle-3.png');
     background-size: cover;
     height: 500px;
     width: 400px;
