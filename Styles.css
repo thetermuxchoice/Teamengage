@@ -10951,11 +10951,11 @@ transform: rotate(90deg);
   }
 
   .w-nav-brand{
-    padding-left: 2%;
+    padding-left: 3%;
   }
 
   .nav-menu-wrapper{
-    padding: 0 4%;
+    padding: 0 4% !important;
   }
 
   .text-home2{
