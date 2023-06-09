@@ -49,6 +49,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 @media screen and (max-width: 280px){
 
+.text-init{
+  padding: 0px 5px;
+}
+
   .vector{
     width: 60px !important;
     height: 60px !important;
@@ -915,6 +919,33 @@ textarea.w-input, textarea.w-select {
 @media screen and (min-width: 1024px) {
 
 
+.nav-menu-wrapper{
+  padding:0 3% !important;
+}
+
+  .redes-home{
+    background-color: #818181 !important;
+    display: flex !important;
+    align-items: end !important;
+  
+    justify-content: start !important;
+  }
+  
+  
+  .redes-home2 {
+    display: flex !important;
+    align-items: center !important;
+    position: relative;
+    margin-left: 78% !important;
+    margin-top:20px ;
+
+  
+  }
+  
+  .redes-home2 li{
+    background-color: #4d5d7e !important;
+  
+  }
 
   .text-home2{
     margin: auto;
@@ -924,35 +955,49 @@ textarea.w-input, textarea.w-select {
     
     }
 
+.text-home{
+  margin-left: 45px !important;
+}
+
+.fondo{
+  background-image: url("assets/Ellipse\ 13.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  width: 245% !important;
+  height: 110% !important;
+  position: absolute;
+  }
+
   .position{
     position: absolute;
-    top: 30% ;
-    left: 78%;
+    top: 59% !important;
+    left: 70% !important;
     transform: translate(-50%,-50%);
   }
   
   .slider{
     background-image: url('assets/Danelle-3.png');
     background-size: cover;
-    height: 350px;
-    width: 260px;
+    height: 370px !important;
+    width: 280px !important;
     animation: animate 6s infinite ease-in-out;
   }
 
-.slider-container{
-  width: 100px;
-  height: 100px;
-}
+  .explore-div{
+    margin-top: 6%;
+  }
 
   .content-banner-home-1 {
     width: 100%;
     position: relative;
     display: grid;
-    grid-template-columns: 70% 2% 28%;
+    grid-template-columns: 40% 2% 58% !important;
     padding-top: 30px;
   }
   
-
+.redes-home{
+  margin-left: -10px;
+}
 
 }
 
@@ -961,43 +1006,88 @@ textarea.w-input, textarea.w-select {
     max-width: 728px;
   }
 
-
-  .content-banner-home-1 {
-    width: 100%;
-    position: relative;
-    display: grid;
-    grid-template-columns: 40% 40% 10%;
-    padding-top: 30px;
+  .nav-menu-wrapper{
+    padding:0 3% !important;
   }
-
-
-
-  .position{
+  
+    .redes-home{
+      background-color: #818181 !important;
+      display: flex !important;
+      align-items: end !important;
+    
+      justify-content: start !important;
+    }
+    
+    
+    .redes-home2 {
+      display: flex !important;
+      align-items: center !important;
+      position: relative;
+      margin-left:-80% !important;
+      margin-top:20px ;
+  
+    
+    }
+    
+    .redes-home2 li{
+      background-color: #4d5d7e !important;
+    
+    }
+  
+    .text-home2{
+      margin: auto;
+      display: block;
+  
+      width: 100%;
+      
+      }
+  
+  .text-home{
+    margin-left: 45px !important;
+  }
+  
+  .fondo{
+    background-image: url("assets/Ellipse\ 13.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 245% !important;
+    height: 110% !important;
+    left: -120%;
     position: absolute;
-    top: 60% ;
-    left: 78%;
-    transform: translate(-50%,-50%);
+    }
+  
+    .position{
+      position: absolute;
+      top: 70% !important;
+      left: 65% !important;
+      transform: translate(-50%,-50%);
+    }
+    
+    .slider{
+      background-image: url('assets/Danelle-3.png');
+      background-size: cover;
+      height: 570px !important;
+      width: 480px !important;
+      animation: animate 6s infinite ease-in-out;
+    }
+  
+    .explore-div{
+      margin-top: 6%;
+    }
+  
+    .content-banner-home-1 {
+      width: 100%;
+      position: relative;
+      display: grid;
+      grid-template-columns: 100%!important;
+      padding-top: 30px;
+      padding-bottom: 230px;
+    }
+    
+  .redes-home{
+    margin-left: -10px;
   }
   
-  .slider{
-    background-image: url('assets/Danelle-3.png');
-    background-size: cover;
-    height: 320px;
-    width: 260px;
-    animation: animate 6s infinite ease-in-out;
-  }
-
-.slider-container{
-  width: 100px;
-  height: 100px;
-}
-
-  
-
-
-  .foot-info2{
-    padding-left: 20px;
-  }
   
 
   .w-hidden-main {
@@ -1071,6 +1161,91 @@ textarea.w-input, textarea.w-select {
   }
 
 
+  .nav-menu-wrapper{
+    padding:0 3% !important;
+  }
+  
+    .redes-home{
+      background-color: #818181 !important;
+      display: flex !important;
+      align-items: end !important;
+    
+      justify-content: start !important;
+    }
+    
+    
+    .redes-home2 {
+      display: flex !important;
+      align-items: center !important;
+      position: relative;
+      margin-left:-80% !important;
+      margin-top:20px ;
+  
+    
+    }
+    
+    .redes-home2 li{
+      background-color: #4d5d7e !important;
+    
+    }
+  
+    .text-home2{
+      margin: auto;
+      display: block;
+  
+      width: 100%;
+      
+      }
+  
+  .text-home{
+    margin-left: 45px !important;
+  }
+  
+  .fondo{
+    background-image: url("assets/Ellipse\ 13.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 245% !important;
+    height: 110% !important;
+    left: -120%;
+    position: absolute;
+    }
+  
+    .position{
+      position: absolute;
+      top: 30% !important;
+      left: 65% !important;
+      transform: translate(-50%,-50%);
+    }
+    
+    .slider{
+      background-image: url('assets/Danelle-3.png');
+      background-size: cover;
+      height: 470px !important;
+      width: 380px !important;
+      animation: animate 6s infinite ease-in-out;
+    }
+  
+    .explore-div{
+      margin-top: 6%;
+    }
+  
+    .content-banner-home-1 {
+      width: 100%;
+      position: relative;
+      display: grid;
+      grid-template-columns: 100%!important;
+      padding-top: 30px;
+      padding-bottom: 230px;
+    }
+    
+  .redes-home{
+    margin-left: -10px;
+  }
+  
+
+
+
   .w-hidden-small {
     display: none !important;
   }
@@ -1140,6 +1315,14 @@ textarea.w-input, textarea.w-select {
     max-width: none;
   }
   
+  .text-init{
+    padding: 2px 15px;
+    line-height: 23px;
+    text-align: center;
+    text-align: justify; 
+  }
+  
+
   .vision-text{
     display: flex;
     flex-direction: column;
@@ -1669,6 +1852,13 @@ textarea.w-input, textarea.w-select {
     padding-left: 10px;
   }
 
+  .text-init{
+    padding: 2px 15px;
+    line-height: 23px;
+    text-align: center;
+
+  }
+  
 
   .wrapper{
     display: grid;
@@ -1967,16 +2157,24 @@ font-size: 24px;
   overflow: hidden;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024) {
   .w-lightbox-content {
     height: 96vh;
     margin-top: 2vh;
   }
 
+  .text-init{
+
+
+    text-align: justify; 
+  }
+  
+
+
   .position{
     position: absolute;
-    top: 85% ;
-    left: 70%;
+    top: 71% !important;
+    left: 65% !important;
     transform: translate(-50%,-50%);
   }
   
@@ -1984,25 +2182,63 @@ font-size: 24px;
 
 .text-home{
   padding: 0px;
-  margin-left: 120px;
+  margin-left: 70px;
 }
 
   .slider{
     background-image: url('assets/Danelle-3.png');
     background-size: cover;
-    height: 280px;
-    width: 210px;
+    height: 520px !important;
+    width: 450px !important;
     animation: animate 6s infinite ease-in-out;
   }
 
+  .fondo {
+    background-image: url("./assets/Ellipse\ 13.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 140% !important;
+    height: 100% !important;
+    overflow: hidden;
+    left: -40% !important;
+    position: absolute;
+}
 
 
+.redes-home{
+  background-color: #818181 ;
+  display: flex ;
+  align-items: end ;
 
-  
+  justify-content: start ;
+}
 
 
+.redes-home2 {
+  display: flex ;
+  align-items: center ;
+  position: relative;
+  margin-left:-92% !important;
+  margin-top:20px ;
+  height: 500px;
+justify-content: start ;
+}
+
+.redes-home2 li{
+  background-color: #4d5d7e ;
+
+}
 
 
+.nav-menu-wrapper {
+
+  padding: 0px 3% !important;
+}
+
+
+.text-home {
+  justify-content: start ;
+  margin-left: 40px ;}
 
 
   .vision-text-paragrah2 span{
@@ -4105,19 +4341,50 @@ text-align: center;
     width: 100%;
     position: relative;
     display: grid;
-    text-align: center;
-    grid-template-columns: 100%;
+    grid-template-columns: 100% ;
     padding-top: 30px;
   }
 
-  .button-price-wrap{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  .fondo{
+    width: 340% !important;
+    height: 200%;
+    left: -120%;
+    position: absolute;
+    }
+
+  .redes-home{
+    background-color: #818181 !important;
+    display: flex !important;
+    align-items: end !important;
+  
+    justify-content: start !important;
+  }
+  
+  
+  .redes-home2 {
+    display: flex !important;
+    align-items: center !important;
+    position: relative;
+    margin-left:-90% ;
+    margin-top:50px ;
+  justify-content: start !important;
   }
 
+  .text-home {
+    margin-left: 0px !important; 
+}
+
+.text-home h2,h3{
+  padding-left: 22px !important; 
+}
+
+.button-home{
+  margin-left: 22px;
+}
+
   .explore-div{
-    display: none !important;
+    position: absolute !important;
+    top:89%
   }
 
   .slider-container{
@@ -4125,17 +4392,31 @@ text-align: center;
     height: 0;
   }
 
-  .redes-home2{
-    display: none !important;
-  }
-  
+  .heading-banner-56-px {
+    font-size: 82px !important;
+}
+
+  .text-init {
+    padding-left: 22px !important;
+    line-height: 23px;
+    text-align: justify !important;
+}
+
   .position{
-    display: none;
+    
     position: absolute;
-    top: 40% ;
-    left: 75%;
+    top: 69% !important;
+    left: 63% !important;
     transform: translate(-50%,-50%);
   }
+
+  .slider {
+    background-image: url("assets/Danelle-3.png");
+    background-size: cover;
+    height: 400px !important;
+    width: 340px !important;
+    animation: animate 6s infinite ease-in-out;
+}
 
 
 }
@@ -4153,10 +4434,15 @@ text-align: center;
    }
 
 
-.slider-container{
-  width: 0;
-  height: 0;
-}
+   .fondo{
+    background-image: url("assets/Ellipse\ 13.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 245% !important;
+    height: 110% !important;
+    left: -120%;
+    position: absolute;
+    }
 
    .content-banner-home-1 {
     width: 100%;
@@ -4170,34 +4456,42 @@ text-align: center;
   .button-price-wrap{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
   }
 
-  .explore-div{
-    display: none !important;
+  .nav-menu-wrapper{
+    padding: 0px 1% !important;
   }
+  
+.text-home h2,h3{
+  padding-left: 0 !important;
+}
+
+
+.text-init {
+  padding-left: 0px !important;
+  line-height: 23px;
+  text-align: justify !important;
+}
 
   .position{
-    display: none;
+
     position: absolute;
-    top: 60% ;
-    left: 75%;
+    top: 62% !important;
+    left: 70% !important;
     transform: translate(-50%,-50%);
   }
 
-.redes-home2{
-  display: none !important;
-}
 
   .redes-home li{
-    transform:rotate(0deg) !important;
+    transform:rotate(90deg) !important;
   }
   
   .slider{
     background-image: url('assets/Danelle-3.png');
     background-size: cover;
-    height: 260px;
-    width: 180px;
+    height: 290px !important;
+    width: 210px !important;
     animation: animate 6s infinite ease-in-out;
   }
 
@@ -5550,7 +5844,7 @@ position: absolute;
   justify-content: space-between;
   align-items: center;
   display: flex;
-  padding: 0px 4%;
+  padding: 0px 2%;
 }
 
 .blog-item {
@@ -5558,10 +5852,9 @@ position: absolute;
 }
 
 .explore-div{
-  margin-top:25%;
+
   display: flex;
   width: 25%;
-  padding-left: 20px;
 }
 
 .explore-div img{
@@ -6939,14 +7232,6 @@ position: absolute;
 
 
 
-.text-home{
-
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 20px 25px;
-}
-
 .button-home {
   color: #fff;
   text-align: center;
@@ -7047,7 +7332,7 @@ transform: rotate(90deg);
 
 .parapraph-banner-wrap {
   width: 100%;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .parapraph-banner-wrap.home-4 {
@@ -9763,24 +10048,41 @@ transform: rotate(90deg);
 @media screen and (min-width: 1280px) {
 
   .explore-div{
-    margin-top: 45%;
-    margin-left: 8%;
+    margin-top: 24%;
   }
 
+  .fondo{
+    background-image: url("assets/Ellipse\ 13.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 125% !important;
+    left: -50%;
+    height: 110% !important;
+    position: absolute;
+    }
+
+  .nav-menu-wrapper{
+    padding: 0 3%;
+  }
+
+  .text-home{
+    margin-left: 70px !important;
+  }
+  
 
 
   .position{
     position: absolute;
-    top: 62%;
-    left: 75%;
+    top: 42% !important;
+    left: 71% !important;
     transform: translate(-50%,-50%);
   }
   
   .slider{
     background-image: url('assets/Danelle-3.png');
     background-size: cover;
-    height: 550px;
-    width: 450px;
+    height: 520px !important;
+    width: 420px !important;
     animation: animate 6s infinite ease-in-out;
   }
 
@@ -9788,11 +10090,35 @@ transform: rotate(90deg);
     width: 100%;
     position: relative;
     display: grid;
-    grid-template-columns: 70% 18% 2%;
+    grid-template-columns: 50% 15% 35% !important;
     padding-top: 30px;
+    padding-bottom: 310px;
   }
   
 
+  .redes-home{
+    background-color: #818181 !important;
+    display: flex !important;
+    align-items: end !important;
+  
+    justify-content: start !important;
+  }
+  
+  
+  .redes-home2 {
+    display: flex !important;
+    align-items: center !important;
+    position: relative;
+    margin-left: 71% !important;
+    margin-top:20px ;
+
+  
+  }
+  
+  .redes-home2 li{
+    background-color: #4d5d7e !important;
+  
+  }
 
   
   .block-info{
@@ -10155,6 +10481,7 @@ transform: rotate(90deg);
 
   .brand.w--current {
     width: 270px;
+    padding-left: 4%;
   }
 
   .content-footer-wrap {
@@ -10215,7 +10542,8 @@ transform: rotate(90deg);
 
   .heading-banner-56-px {
     font-size: 126px;
-    padding-top: 50px;
+    padding-top: 20px;
+
   }
 
   .parapraph-banner-wrap {
@@ -10622,35 +10950,67 @@ transform: rotate(90deg);
     font-size: 80px;
   }
 
+  .w-nav-brand{
+    padding-left: 2%;
+  }
+
+  .nav-menu-wrapper{
+    padding: 0 4%;
+  }
+
   .text-home2{
-    margin-top: 60px;
-    margin-left: 70px;
+    margin-top: 90px;
+    margin-left: 60px;
   }
 
   .fondo{
     background-image: url("assets/Ellipse\ 13.png");
     background-size:contain;
     background-repeat: no-repeat;
-    width: 85%;
-    height: 100%;
+    width: 115% !important;
+    height: 110% !important;
     position: absolute;
     }
     
+    
 
+    .redes-home{
+      background-color: #818181 !important;
+      display: flex !important;
+      align-items: end !important;
+      margin-left: 10% !important;
+      justify-content: end !important;
+    }
+    
+    
+    .redes-home2 {
+      display: flex !important;
+      align-items: center !important;
+      position: relative;
+      justify-content: end;
+      margin-top:30% !important;
+      margin-left: 10%;
+    
+    }
+    
+    .redes-home2 li{
+      background-color: #4d5d7e !important;
+    
+    }
 
   .position{
 
     position: absolute;
-    top: 54% ;
-    left: 70%;
+    top: 56% !important;
+    left: 70% !important;
     transform: translate(-50%,-50%);
   }
 
   .slider{
     background-image: url('assets/Danelle-3.png');
     background-size: cover;
-    height: 500px;
-    width: 400px;
+    height: 580px !important;
+    width: 480px !important;
     animation: animate 6s infinite ease-in-out;
   }
 
@@ -10661,9 +11021,9 @@ transform: rotate(90deg);
     width: 100%;
     position: relative;
     display: grid;
-    grid-template-columns: 30% 50% 20%;
+    grid-template-columns: 40% 10% 50% !important;
     padding-top: 10px;
-    padding-bottom:100px;
+    padding-bottom:150px;
   }
 
   .wrapper{
@@ -10938,9 +11298,50 @@ transform: rotate(90deg);
     font-size: 90px;
   }
 
+  .fondo{
+    background-image: url("assets/Ellipse\ 13.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 155% !important;
+    height: 140% !important;
+    left: -60%;
+    position: absolute;
+    }
 
+  .nav-menu-wrapper{
+    padding: 0 2%;
+  }
+
+  .text-home2{
+    margin-left: 48px;
+  }
   
+  .content-banner-home-1{
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 40% 30% 30% !important;
+    padding-top: 10px;
+    padding-bottom: 500px;
+  }
+
+  .slider{
+    background-image: url("assets/Danelle-3.png");
+    background-size: cover;
+    height: 800px !important;
+    width: 650px !important;
+    animation: animate 6s infinite ease-in-out;
+  }
   
+.position{
+  top:38% !important;
+  left:65% !important;
+}
+
+.explore-div{
+  margin-top: 50%;
+}
+
   .wrapper{
     padding-top:80px ;
 
