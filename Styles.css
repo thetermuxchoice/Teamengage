@@ -13851,6 +13851,19 @@ transform: rotate(90deg);
     flex-direction: row;
   }
 
+
+  .fondo{
+    background-image: url("assets/Ellipse\ 13.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 245% !important;
+    height: 110% !important;
+    left: -150% !important;
+    position: absolute;
+    }
+  
+
+
   .block-info{
     display: flex;
     flex-direction: column;
