@@ -20,9 +20,10 @@ h4,h1,h2,h3,h5,h6{
 
 
 a{
-  color: #262727 !important;
+  color: #262727 ;
   text-decoration: none !important;
 }
+
 
 .section3{
   position: relative;
@@ -56,6 +57,35 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 .text-init{
   padding: 0px 5px;
+}
+
+.text-home h2{
+  padding-left: 0px;
+  margin: 0px;
+  font-size: 30px !important;
+}
+
+
+
+.heading-banner-56-px{
+  font-size: 30px !important;
+  padding-left: 0px !important;
+}
+
+.position{
+  position: absolute;
+  top: 53% !important;
+  left: 60% !important;
+  transform: translate(-50%,-50%);
+}
+
+.slider{
+  background-image: url('assets/Danelle-3.png');
+  background-size: cover;
+  height: 300px !important;
+  width: 200px !important;
+
+  animation: animate 6s infinite ease-in-out;
 }
 
   .vector{
@@ -923,6 +953,30 @@ textarea.w-input, textarea.w-select {
 
 @media screen and (min-width: 1024px) {
 
+.about-home-wrap{
+  margin-top: 0px;
+}
+
+  .slider2{
+    background-image: url("assets/Slider-1.jpg");
+    background-size: cover;
+    height: 100% ;
+    width: 100%;
+    animation: animate2 14s infinite ease-in-out;
+  }
+  
+.aboutr h2{
+  font-size: 36px;
+}
+
+  .vector{
+    width: 100px !important;
+    height: 100px !important;
+    position: absolute;
+    top:79% !important;
+    right: 62% !important;
+    z-index:1006;
+  }
 
 .nav-menu-wrapper{
   padding:0 3% !important;
@@ -975,16 +1029,16 @@ textarea.w-input, textarea.w-select {
 
   .position{
     position: absolute;
-    top: 59% !important;
-    left: 70% !important;
+    top: 61% ;
+    left: 70% ;
     transform: translate(-50%,-50%);
   }
   
   .slider{
     background-image: url('assets/Danelle-3.png');
     background-size: cover;
-    height: 370px !important;
-    width: 280px !important;
+    height: 370px ;
+    width: 280px ;
     animation: animate 6s infinite ease-in-out;
   }
 
@@ -1010,6 +1064,18 @@ textarea.w-input, textarea.w-select {
   .w-container {
     max-width: 728px;
   }
+
+
+  .slider2{
+    background-image: url("assets/Slider-1.jpg");
+    background-size: cover;
+    height: 280px ;
+    width: 480px;
+    margin-top: 120px;
+    animation: animate2 14s infinite ease-in-out;
+  }
+  
+
 
   .nav-menu-wrapper{
     padding:0 3% !important;
@@ -1063,16 +1129,16 @@ textarea.w-input, textarea.w-select {
   
     .position{
       position: absolute;
-      top: 70% !important;
-      left: 65% !important;
+      top: 70% ;
+      left: 65% ;
       transform: translate(-50%,-50%);
     }
     
     .slider{
       background-image: url('assets/Danelle-3.png');
       background-size: cover;
-      height: 570px !important;
-      width: 480px !important;
+      height: 570px;
+      width: 480px ;
       animation: animate 6s infinite ease-in-out;
     }
   
@@ -1218,16 +1284,16 @@ textarea.w-input, textarea.w-select {
   
     .position{
       position: absolute;
-      top: 30% !important;
-      left: 65% !important;
+      top: 30% ;
+      left: 65% ;
       transform: translate(-50%,-50%);
     }
     
     .slider{
       background-image: url('assets/Danelle-3.png');
       background-size: cover;
-      height: 470px !important;
-      width: 380px !important;
+      height: 470px ;
+      width: 380px ;
       animation: animate 6s infinite ease-in-out;
     }
   
@@ -1319,14 +1385,47 @@ textarea.w-input, textarea.w-select {
   .w-container {
     max-width: none;
   }
+
+  .slider2{
+    background-image: url("assets/Slider-1.jpg");
+    background-size: cover;
+    height: 200px ;
+    width: 100%;
+    margin-top: 0px;
+    animation: animate2 14s infinite ease-in-out;
+  }
   
   .text-init{
     padding: 2px 15px;
-    line-height: 23px;
+    line-height: 23px !important;
     text-align: center;
     text-align: justify; 
   }
+
+  .img-redes {
+    width: 20px !important;
+    height: 20px  !important;
+}
   
+
+.redes-home li {
+  font-size: 16px !important;
+  transform: rotate(90deg);
+}
+
+  .explore-div{
+
+    display: flex;
+    left: 3%;
+    top: 74% !important;
+    font-size: 14px;
+  }
+
+  .explore-div img{
+
+width: 10% !important;
+  }
+
 
   .vision-text{
     display: flex;
@@ -1857,6 +1956,33 @@ textarea.w-input, textarea.w-select {
     padding-left: 10px;
   }
 
+  .block-info{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.block-info div{
+  background-color: #ffffff;
+  width: 80% !important;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 0 5px 25px rgba(172, 28, 28, 0.25);
+  border-radius: 10px;
+  text-align: justify;
+  padding: 5px 25px;
+}
+
+  .image-burger{
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+  }
+
+
   .text-init{
     padding: 2px 15px;
     line-height: 23px;
@@ -2162,7 +2288,68 @@ font-size: 24px;
   overflow: hidden;
 }
 
-@media (min-width: 1024) {
+@media screen and (min-width:768px){
+  .vector{
+    width: 100px !important;
+    height: 100px !important;
+    position: absolute;
+    top:79% ;
+    right: 65% ;
+    z-index:1006;
+  }
+
+  .image-burger{
+    width: 40px;
+    height: 40px;
+  }
+
+  .vision-text-paragrah2{
+    padding-right: 25px;
+  }
+
+  .fondo {
+    background-image: url("./assets/Ellipse\ 13.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 140% !important;
+    height: 100% !important;
+    overflow: hidden;
+    left: -40% !important;
+    position: absolute;
+}
+
+  
+img.vision{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.block-info{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.block-info div{
+  background-color: #ffffff;
+  width: 80% !important;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 0 5px 25px rgba(172, 28, 28, 0.25);
+  border-radius: 10px;
+  text-align: justify;
+  padding: 5px 25px;
+}
+
+
+}
+
+@media screen and  (max-width: 0) {
   .w-lightbox-content {
     height: 96vh;
     margin-top: 2vh;
@@ -2178,8 +2365,8 @@ font-size: 24px;
 
   .position{
     position: absolute;
-    top: 71% !important;
-    left: 65% !important;
+    top: 75% ;
+    left: 65% ;
     transform: translate(-50%,-50%);
   }
   
@@ -2597,7 +2784,7 @@ padding-left: 30px;
 
 .w-nav-overlay {
   width: 100%;
-  display: none;
+  display: none !important;
   position: absolute;
   top: 100%;
   left: 0;
@@ -2657,7 +2844,7 @@ padding-left: 30px;
 }
 
 .w-nav[data-collapse="all"] .w-nav-button, .w--nav-dropdown-open, .w--nav-dropdown-toggle-open {
-  display: block;
+  display: none;
 }
 
 .w--nav-dropdown-list-open {
@@ -4410,16 +4597,16 @@ text-align: center;
   .position{
     
     position: absolute;
-    top: 69% !important;
-    left: 63% !important;
+    top: 69% ;
+    left: 63% ;
     transform: translate(-50%,-50%);
   }
 
   .slider {
     background-image: url("assets/Danelle-3.png");
     background-size: cover;
-    height: 400px !important;
-    width: 340px !important;
+    height: 400px ;
+    width: 340px ;
     animation: animate 6s infinite ease-in-out;
 }
 
@@ -4449,41 +4636,68 @@ text-align: center;
     position: absolute;
     }
 
+    .redes-home2 {
+      display: flex !important;
+      align-items: center !important;
+      position: relative;
+      margin-left: -80% !important;
+      margin-top: 12% !important;
+      justify-content: start !important;
+  }
+
    .content-banner-home-1 {
     width: 100%;
     position: relative;
     display: grid;
     text-align: center;
     grid-template-columns: 100%;
-    padding-top: 30px;
+    padding-top: 10px !important;
   }
 
   .button-price-wrap{
     width: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: center;
   }
 
   .nav-menu-wrapper{
     padding: 0px 1% !important;
   }
   
-.text-home h2,h3{
-  padding-left: 0 !important;
+.text-home h3{
+  padding-left: 24px !important;
+  padding-top: 0px !important;
+  text-align: justify;
+  font-size: 25px !important;
 }
 
+.heading-banner-56-px{
+  font-size: 60px !important;
+  text-align: justify;
+  padding-left: 20px !important;
+}
+
+.button-price-wrap{
+  margin-top: 10px !important;
+}
+
+.text-home h3{
+  margin-top: -3% !important;
+}
 
 .text-init {
-  padding-left: 0px !important;
+  padding-left: 22px !important;
+  margin-top: -4% !important;
   line-height: 23px;
+  font-size: 16px !important;
   text-align: justify !important;
 }
 
   .position{
 
     position: absolute;
-    top: 62% !important;
-    left: 70% !important;
+    top: 55% ;
+    left: 65% ;
     transform: translate(-50%,-50%);
   }
 
@@ -4495,8 +4709,8 @@ text-align: center;
   .slider{
     background-image: url('assets/Danelle-3.png');
     background-size: cover;
-    height: 290px !important;
-    width: 210px !important;
+    height: 340px ;
+    width: 250px;
     animation: animate 6s infinite ease-in-out;
   }
 
@@ -4619,7 +4833,6 @@ p {
 }
 
 a {
-  color: #387975;
   align-items: center;
   font-size: 18px;
   line-height: 1.2em;
@@ -5425,9 +5638,10 @@ padding-top: 30px;
 
 .navbar {
   width: 100%;
-  background-color: #0082f300;
+  position: sticky;
+  top: 0;
+  background-color: #fcefef;
   padding-top: 15px;
-  color: #000;
   display: flex;
   padding-bottom: 15px;
 
@@ -5545,8 +5759,8 @@ position: absolute;
   font-size: 20px;
   line-height: 20px;
   text-decoration: none;
-  color:#262727;
-  font-weight: bold;
+  color:#262727 ;
+
   padding:5px 0px;
 }
 
@@ -6055,6 +6269,7 @@ position: absolute;
 
 .paragraph-large {
   font-size: 20px;
+  text-align: justify;
   line-height: 1.5em;
 }
 
@@ -6964,6 +7179,19 @@ position: absolute;
 
 
 
+@keyframes animate2{
+  33%{
+    background-image: url('assets/Slider-2.jpg');
+  }
+  66%{
+    background-image: url('assets/Slider-3.jpg');
+  }
+  100%{
+    background-image: url('assets/Slider-1.jpg');
+  }
+}
+
+
 
 .img-vision{
   display: flex;
@@ -7068,7 +7296,7 @@ position: absolute;
 .register-courses-footer {
   z-index: 10;
   width: 100%;
-
+  justify-content: space-around;
   background-color: #fff;
   border-radius: 10px;
   align-items: center;
@@ -7080,6 +7308,7 @@ position: absolute;
 }
 
 .heading-3 {
+  font-size: 28px;
   padding-right: 15px;
 }
 
@@ -7265,10 +7494,10 @@ position: absolute;
   
 
 @keyframes animate{
-  40%{
+  60%{
     background-image: url('assets/Mike-3.png');
   }
-  80%{
+  130%{
     background-image: url('assets/Danelle-3.png');
   }
 }
@@ -7630,7 +7859,7 @@ transform: rotate(90deg);
   grid-auto-columns: 1fr;
   align-items: center;
   justify-items: center;
-  margin-top: 80px;
+
   display: grid;
 }
 
@@ -10078,16 +10307,16 @@ transform: rotate(90deg);
 
   .position{
     position: absolute;
-    top: 42% !important;
-    left: 71% !important;
+    top: 42% ;
+    left: 71%;
     transform: translate(-50%,-50%);
   }
   
   .slider{
     background-image: url('assets/Danelle-3.png');
     background-size: cover;
-    height: 520px !important;
-    width: 420px !important;
+    height: 520px ;
+    width: 420px ;
     animation: animate 6s infinite ease-in-out;
   }
 
@@ -10114,7 +10343,7 @@ transform: rotate(90deg);
     display: flex !important;
     align-items: center !important;
     position: relative;
-    margin-left: 71% !important;
+    margin-left: 68% !important;
     margin-top:20px ;
 
   
@@ -10264,8 +10493,8 @@ transform: rotate(90deg);
     width: 100px;
     height: 100px;
     position: absolute;
-    top:60%;
-    right:25%;
+    top:60% !important;
+    right:25% !important;
     z-index:1006;
   }
   
@@ -10512,7 +10741,7 @@ transform: rotate(90deg);
   }
 
   .content-courses-footer {
-    width: 35%;
+    width: 38%;
   }
 
   .heading-3 {
@@ -11006,16 +11235,16 @@ transform: rotate(90deg);
   .position{
 
     position: absolute;
-    top: 56% !important;
-    left: 70% !important;
+    top: 56% ;
+    left: 70% ;
     transform: translate(-50%,-50%);
   }
 
   .slider{
     background-image: url('assets/Danelle-3.png');
     background-size: cover;
-    height: 580px !important;
-    width: 480px !important;
+    height: 580px;
+    width: 480px;
     animation: animate 6s infinite ease-in-out;
   }
 
@@ -11145,8 +11374,8 @@ transform: rotate(90deg);
     width: 100px;
     height: 100px;
     position: absolute;
-    top:60%;
-    right:23%;
+    top:60% !important;
+    right:23% !important;
     z-index:1006;
   }
 
@@ -11309,7 +11538,7 @@ transform: rotate(90deg);
     background-repeat: no-repeat;
     width: 155% !important;
     height: 140% !important;
-    left: -60%;
+    left: -60% !important;
     position: absolute;
     }
 
@@ -11333,14 +11562,14 @@ transform: rotate(90deg);
   .slider{
     background-image: url("assets/Danelle-3.png");
     background-size: cover;
-    height: 800px !important;
-    width: 650px !important;
+    height: 800px ;
+    width: 650px ;
     animation: animate 6s infinite ease-in-out;
   }
   
 .position{
-  top:38% !important;
-  left:65% !important;
+  top:38% ;
+  left:65% ;
 }
 
 .explore-div{
@@ -11818,7 +12047,7 @@ transform: rotate(90deg);
     width: 320px;
     background-color: #e2edec;
     flex-direction: column;
-    position: fixed;
+    position: none;
     top: 0%;
     bottom: 0%;
     left: 0%;
@@ -11829,6 +12058,7 @@ transform: rotate(90deg);
     text-align: right;
     background-color: rgba(0, 0, 0, 0);
     padding: 0;
+    display: none;
   }
 
   .menu-button.w--open {
