@@ -565,8 +565,7 @@ h6 {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 10px;
+
 }
 
 blockquote {
@@ -953,20 +952,195 @@ textarea.w-input, textarea.w-select {
 
 @media screen and (min-width: 1024px) {
 
+
+  .new-section{
+    background-image: url('./assets/Fondo.svg');
+    width: 100%;
+    height: 800px;
+    margin-top: 100px;
+    background-size: cover;
+  }
+
+.slider-Training{
+  padding-top: 100px;
+  width: 100%;
+display: grid;
+justify-content: center;
+}
+
+.slider-T{
+  width: 800px;
+  height: 350px;
+  overflow: hidden;
+  
+}
+
+.div-1{
+  display: flex;
+  width: 800px;
+  background-color: #181717;
+  border-radius: 4%;
+ 
+}
+
+.div-1 div{
+  background-color: #e6e6e61a;
+  margin:10px ;
+  border-radius: 4%;
+  border:1px solid;
+  border-color: white;
+  box-shadow: 0 0 3px rgba(209, 198, 198, 0.4);
+
+}
+
+.button-slider{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button-slider button{
+padding: 0px 10px;
+margin: 0px 10px;
+}
+
+.div-1 p{
+ color: #FFF;
+}
+
+.div-1 img{
+  width: 1400px;
+  height: 320px;
+  padding: 10px;
+  border-radius: 7%;
+}
+
+
+
+
+
+.new-section-div{
+  z-index: 1011;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 90px;
+}
+
+.new-section h2{
+  font-size: 50px;
+}
+
+
+  .vision-text{
+    width: 100%;
+    
+  }
+
+
+  .vision-text-paragrah{
+
+    width: 100%;
+    height: 86%;
+    display: grid;
+    }
+
+    .vision-text-paragrah-div{
+      color: #000;
+      display: grid;
+      grid-template-columns: 15% 85%;
+
+    }
+
+    .vision-text-paragrah-div p{
+      color: #000;
+      margin-top: 0;
+      font-size: 24px;
+      text-align: left;
+      padding-left: 50px;
+      margin-bottom: 0;
+
+    }
+
+    .vision-text-paragrah-div img{
+      color: #000;
+      width: 100%;
+
+    }
+
+
+    
+  .vision-father{
+    display: grid;
+    
+
+  }
+  
+  .div-vision-img{
+    width: 600px;
+    height: 850px;
+    border-radius: 4%;
+  }
+  
+
+.title-ceo{
+
+  width: 100;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.title-ceo p{
+  color: #000;
+  font-weight: bold;
+}
+
+.ceo-name{
+  font-size: 42px;
+}
+
+  .visions{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
 .about-home-wrap{
   margin-top: 0px;
+  height: 100vh;
+  display: grid;
+  position: relative;
+grid-template-columns: 50% 50%;
 }
 
   .slider2{
     background-image: url("assets/Slider-1.jpg");
     background-size: cover;
-    height: 100% ;
-    width: 100%;
+    clip-path: polygon(50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%, 0 20%);
+    height: 80% ;
+    width: 80%;
     animation: animate2 14s infinite ease-in-out;
   }
-  
+
+  .img-elipse{
+    position: absolute;
+    top: 60%;
+    left: 54%;
+  }
+
+  .aboutr{
+
+    height: 70vh;
+    padding: 15px 45px;
+    line-height: 50px;
+    color: #000;
+  }
+
 .aboutr h2{
-  font-size: 36px;
+  font-size: 56px;
+  color: #000;
+
 }
 
   .vector{
@@ -2046,13 +2220,6 @@ font-size: 24px;
 
 
 
-.div-vision-img{
-  width: 350px;
-  height: 350px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
 
 
 
@@ -2463,11 +2630,7 @@ justify-content: start ;
     background-image: url("assets/Fondo-4.png");
   }
 
-  .vision-father{
-    display: grid;
-    grid-template-columns: 70% 30%;
-    margin: 0px 50px;
-  }
+
   
 .img-vision{
   display: flex;
@@ -2946,10 +3109,7 @@ text-align: center;
     background-image: url("assets/Fondo-4.png");
   }
 
-  .vision-father{
-    display: grid;
-    grid-template-columns: 65% 35%;
-  }
+
   
 .img-vision{
   display: flex;
@@ -4826,8 +4986,6 @@ h6 {
 
 p {
   color: #535756;
-  margin-top: 10px;
-  margin-bottom: 10px;
   font-weight: 500;
   line-height: 1.5em;
 }
@@ -6268,9 +6426,10 @@ position: absolute;
 }
 
 .paragraph-large {
-  font-size: 20px;
-  text-align: justify;
-  line-height: 1.5em;
+  color: #000000;
+  font-size: 24px;
+  text-align: left;
+  line-height: 1.4em;
 }
 
 .paragraph-large.white-paragraph {
@@ -10281,6 +10440,94 @@ transform: rotate(90deg);
 
 @media screen and (min-width: 1280px) {
 
+  .slider2{
+    background-image: url("assets/Slider-1.jpg");
+    background-size: cover;
+    clip-path: polygon(50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%, 0 20%);
+    height: 70% ;
+    width: 100%;
+    margin-right: 140px;
+    animation: animate2 14s infinite ease-in-out;
+  }
+
+
+  .vision-text{
+    width: 100%;
+    
+  }
+
+
+  .vision-text-paragrah{
+
+    width: 100%;
+    height: 86%;
+    display: grid;
+    }
+
+    .vision-text-paragrah-div{
+      color: #000;
+      display: grid;
+      grid-template-columns: 15% 85%;
+
+    }
+
+    .vision-text-paragrah-div p{
+      color: #000;
+      margin-top: 0;
+      font-size: 20px;
+      text-align: left;
+      padding-left: 30px;
+      padding-top: 20px;
+      padding-right: 30px;
+      margin-bottom: 0;
+
+    }
+
+    .vision-text-paragrah-div img{
+      color: #000;
+      width: 80%;
+      margin-top: 20px;
+    }
+
+
+    
+  .vision-father{
+    display: grid;
+    
+
+  }
+  
+  .div-vision-img{
+    width: 500px;
+    height: 750px;
+    border-radius: 4%;
+  }
+  
+
+.title-ceo{
+
+  width: 100;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.title-ceo p{
+  color: #000;
+  font-weight: bold;
+}
+
+.ceo-name{
+  font-size: 46px;
+}
+
+  .visions{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
   .explore-div{
     margin-top: 24%;
   }
@@ -10447,21 +10694,8 @@ transform: rotate(90deg);
     justify-content: start;
   }
 
-  .vision-father{
-    display: grid;
-    grid-template-columns: 65% 35%;
-  }
-  
-  .vision-text{
-    display: flex;
-    flex-direction: column;
-    padding-right: 20px;
-  }
-  
-  .vision-text-paragrah{
-    text-align: center;
-    width: 100%;
-    }
+
+
   
   .vision-text-paragrah1{
   text-align: center;
@@ -10482,13 +10716,7 @@ transform: rotate(90deg);
     font-size: 20px;
   }
   
-  .div-vision-img{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 50%;
-  }
-  
+
   .vector{
     width: 100px;
     height: 100px;
@@ -11184,6 +11412,95 @@ transform: rotate(90deg);
     font-size: 80px;
   }
 
+  .vision-text{
+    width: 100%;
+    
+  }
+
+  .slider2{
+    background-image: url("assets/Slider-1.jpg");
+    background-size: cover;
+    clip-path: polygon(50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%, 0 20%);
+    height: 80% ;
+    width: 105%;
+    margin-right: 140px;
+    animation: animate2 14s infinite ease-in-out;
+  }
+
+
+
+  .vision-text-paragrah{
+
+    width: 100%;
+    height: 86%;
+    display: grid;
+    }
+
+    .vision-text-paragrah-div{
+      color: #000;
+      display: grid;
+      grid-template-columns: 15% 85%;
+
+      align-items: start;
+    }
+
+    .vision-text-paragrah-div p{
+      color: #000;
+      margin-top: 0;
+      font-size: 18px;
+      text-align: left;
+      padding-left: 10px;
+      padding-right: 50px;
+      margin-bottom: 0;
+
+    }
+
+    .vision-text-paragrah-div img{
+      color: #000;
+      width: 60%;
+      margin-left:10px ;
+    }
+
+
+    
+  .vision-father{
+    display: grid;
+    
+
+  }
+  
+  .div-vision-img{
+    width: 450px;
+    height: 650px;
+    border-radius: 4%;
+  }
+  
+
+.title-ceo{
+
+  width: 100;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.title-ceo p{
+  color: #000;
+  font-weight: bold;
+}
+
+.ceo-name{
+  font-size: 42px;
+}
+
+  .visions{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+
   .w-nav-brand{
     padding-left: 3%;
   }
@@ -11326,21 +11643,7 @@ transform: rotate(90deg);
 
 
 
-  .vision-father{
-    display: grid;
-    grid-template-columns: 65% 35%;
-  }
-  
-  .vision-text{
-    display: flex;
-    flex-direction: column;
-    padding-right: 20px;
-  }
-  
-  .vision-text-paragrah{
-    text-align: center;
-    width: 100%;
-    }
+
   
   .vision-text-paragrah1{
   text-align: center;
@@ -11363,12 +11666,7 @@ transform: rotate(90deg);
     font-size: 20px;
   }
   
-  .div-vision-img{
-    width: 330px;
-    height: 330px;
-    object-fit: cover;
-    border-radius: 50%;
-  }
+
   
   .vector{
     width: 100px;
@@ -11532,6 +11830,85 @@ transform: rotate(90deg);
     font-size: 90px;
   }
 
+  vision-text{
+    width: 100%;
+    
+  }
+
+
+  .vision-text-paragrah{
+
+    width: 100%;
+    height: 86%;
+    display: grid;
+    }
+
+    .vision-text-paragrah-div{
+      color: #000;
+      display: grid;
+      grid-template-columns: 15% 85%;
+
+    }
+
+    .vision-text-paragrah-div p{
+      color: #000;
+      margin-top: 0;
+      font-size: 24px;
+      text-align: left;
+      padding-left: 50px;
+      margin-bottom: 0;
+
+    }
+
+    .vision-text-paragrah-div img{
+      color: #000;
+      width: 100%;
+
+    }
+
+
+    
+  .vision-father{
+    display: grid;
+    
+
+  }
+  
+  .div-vision-img{
+    width: 600px;
+    height: 850px;
+    border-radius: 4%;
+  }
+  
+
+.title-ceo{
+
+  width: 100;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.title-ceo p{
+  color: #000;
+  font-weight: bold;
+}
+
+.ceo-name{
+  font-size: 42px;
+}
+
+  .visions{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+
+
+
+
   .fondo{
     background-image: url("assets/Ellipse\ 13.png");
     background-size:contain;
@@ -11645,21 +12022,7 @@ transform: rotate(90deg);
 
 
 
-  .vision-father{
-    display: grid;
-    grid-template-columns: 65% 35%;
-  }
-  
-  .vision-text{
-    display: flex;
-    flex-direction: column;
-    padding-right: 20px;
-  }
-  
-  .vision-text-paragrah{
-    text-align: center;
-    width: 100%;
-    }
+
   
   .vision-text-paragrah1{
   text-align: center;
@@ -11680,13 +12043,7 @@ transform: rotate(90deg);
     font-size: 20px;
   }
   
-  .div-vision-img{
-    width: 330px;
-    height: 330px;
-    object-fit: cover;
-    border-radius: 50%;
-  }
-  
+
   .vector{
     width: 100px;
     height: 100px;
