@@ -950,6 +950,12 @@ textarea.w-input, textarea.w-select {
   display: none !important;
 }
 
+:root{
+  --slide-transform:0;
+  --transition:transform 1.5s;
+}
+
+
 @media screen and (min-width: 1024px) {
 
 
@@ -961,27 +967,44 @@ textarea.w-input, textarea.w-select {
     background-size: cover;
   }
 
-.slider-Training{
-  padding-top: 100px;
+
+.slide-div{
   width: 100%;
-display: grid;
-justify-content: center;
+  display: grid;
+  justify-content: center;
+  padding-top: 100px;
+}
+  
+.slider-Training{
+  overflow: hidden;
+  width: 800px;
+
 }
 
 .slider-T{
   width: 800px;
-  height: 350px;
-  overflow: hidden;
-  
+  height: 380px;
+  display: flex;
+  transform: translateX(var(--slide-transform));
+  transition: var(--transition);
 }
+
+
+
 
 .div-1{
   display: flex;
-  width: 800px;
+  min-width: 100%;
   background-color: #181717;
   border-radius: 4%;
- 
+  align-items: center;
+  opacity: 100;
+  padding: 10px;
 }
+
+
+
+
 
 .div-1 div{
   background-color: #e6e6e61a;
@@ -990,27 +1013,46 @@ justify-content: center;
   border:1px solid;
   border-color: white;
   box-shadow: 0 0 3px rgba(209, 198, 198, 0.4);
-
+  height: 340px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 .button-slider{
   width: 100%;
   display: flex;
   justify-content: center;
+
+  
 }
 
 .button-slider button{
-padding: 0px 10px;
-margin: 0px 10px;
+padding: 20px 10px;
+margin: 0px 15px;
+background-color: #00000000;
 }
+
+
+.rotate-button{
+  transform: rotate(180deg);
+  transition: all 2s;
+}
+
+.div-1 div h2{
+font-size: 30px;
+ }
+
 
 .div-1 p{
  color: #FFF;
+ font-size: 18px;
+line-height: 28px;
+padding-bottom: 20px;
 }
 
 .div-1 img{
-  width: 1400px;
-  height: 320px;
+  width: 2000px;
+  height: 100%;
   padding: 10px;
   border-radius: 7%;
 }
@@ -7645,7 +7687,7 @@ position: absolute;
 
 
 
-:root
+
 
 .text-home2 h4{
   margin-top: 5%;
