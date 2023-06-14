@@ -18,6 +18,32 @@ const $imagen1=document.getElementById('imagen-1');
 const $imagen2=document.getElementById('imagen-2');
 const $div2=document.getElementById('div2');
 const $div1=document.getElementById('div1');
+const $circulo=document.getElementById('circulo');
+const $section2=document.getElementById('section2');
+const $home=document.getElementById('home');
+
+
+
+const observer = new IntersectionObserver(entries => {
+  if (entries[0].isIntersecting) {
+    console.log('El usuario ha entrado en el contenedor');
+    $circulo.classList.add('scrollAdd')
+  }
+});
+
+const observer2 = new IntersectionObserver(entries => {
+    if (entries[0].isIntersecting) {
+      console.log('El usuario ha entrado en el contenedor2');
+      console.log()
+      $home.classList.remove('navbarColor')
+      $home.classList.add('navbarColor2')
+    }
+  });
+  
+
+observer.observe($circulo);
+observer2.observe($circulo);
+
 
 const sliderElements=document.querySelectorAll('.div-1')
 let slideCounter=0
