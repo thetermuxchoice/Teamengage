@@ -2583,21 +2583,249 @@ font-size: 24px;
     z-index:1006;
   }
 
+  .button-slider{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -70px;
+    
+  }
+  
+  .button-slider button{
+  padding: 0px 10px;
+  margin: 0px 15px;
+  background-color: #00000000;
+  }
+  
+
+  .new-section{
+    background-color: #181717;
+    width: 100%;
+    overflow: hidden;
+    height: 650px;
+    margin-top: 100px;
+
+  }
+
+  .new-section-div{
+    z-index: 1011;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+  }
+  
+
+
+  .slide-div{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+
+  }
+    
+  .slider-Training{
+    overflow: hidden;
+    width: 700px;
+  
+  }
+  
+  .slider-T{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    transform: translateX(var(--slide-transform));
+    transition: var(--transition);
+    
+  }
+  
+  .div-1 img{
+    width: 250px;
+    height: 100%;
+    padding: 10px;
+    border-radius: 7%;
+  }
+  
+  
+  
+  .div-1{
+    display: flex;
+    min-width: 100%;
+    height: 100%;
+    background-color: #181717;
+    border-radius: 4%;
+    align-items: center;
+    opacity: 100;
+    padding: 10px;
+  }
+  
+  
+  
+  
+  
+  .div-1 div{
+    background-color: #e6e6e61a;
+    margin:10px ;
+    border-radius: 4%;
+    border:1px solid;
+    border-color: white;
+    box-shadow: 0 0 3px rgba(209, 198, 198, 0.4);
+    height: 60%;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+  
+  
+  .div-1 div h2{
+    font-size: 34px;
+    padding:0px 20px; 
+    }
+    
+    
+    .div-1 p{
+     color: #FFF;
+     font-size: 16px;
+    line-height: 25px;
+    padding: 0px 20px;
+    }
+
+
+
+
+
+  .vision-text{
+    width: 100%;
+    
+  }
+
+
+  .vision-text-paragrah{
+
+    width: 100%;
+    height: 86%;
+    display: grid;
+    }
+
+    .vision-text-paragrah-div{
+      color: #000;
+      display: grid;
+      grid-template-columns: 15% 85%;
+      padding-top: 10px;
+      
+    }
+
+    .vision-text-paragrah-div p{
+      color: #000;
+      margin-top: 0;
+      font-size: 16px;
+      text-align: left;
+      padding-left: 2px;
+      line-height: 20px;
+      padding-top: 5px;
+      padding-right: 20px;
+      margin-bottom: 0;
+    }
+
+    .vision-text-paragrah-div img{
+      color: #000;
+      width: 60%;
+      margin-top: 5px;
+    }
+
+
+  
+  .vision-father{
+    display: grid;
+  }
+  
+.title-ceo{
+
+  width: 100;
+  font-size: 26px;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.title-ceo h5{
+  color: #000;
+  font-weight: bold;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.ceo-name{
+  font-size: 30px;
+}
+
+  .img-vision{
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-vision img{
+    width: 95%;
+    height: 100%;
+  }
+
+  .visions{
+    margin-top: -140px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .img-elipse{
+    position: absolute;
+    top: 49%;
+    left: 53%;
+    width: 180px;
+  }
+
+  .aboutr{
+
+    height: 70vh;
+    width: 50%;
+    padding: 0px;
+    line-height: 40px;
+    color: #000;
+    margin-top: 40px;
+  }
+
+.aboutr p{
+  font-size: 16px;
+
+}
+
+.aboutr h2{
+  color: #000;
+}
+
+
+  .slider2{
+    background-image: url("assets/Slider-1.jpg");
+    background-size: cover;
+    clip-path: polygon(50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%, 0 20%);
+    height: 70% ;
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 40px;
+    animation: animate2 14s infinite ease-in-out;
+  }
+
 
   .about-home-wrap{
 
     margin: 0px;
-    height: 80vh;
-    display: grid;
-    margin-bottom: 120px;
+    height: 60vh;
+    display: flex;
+    margin-bottom: 100px;
     position: relative;
-    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-content: center;
   }
   
   
-
   .collection-list {
-    padding:60px 20px 20px 20px;
+    padding:60px 20px 40px 20px;
   }
 
 
@@ -10705,7 +10933,12 @@ transform: rotate(90deg);
       margin-top: 20px;
     }
 
-
+    .div-vision-img{
+      width: 500px;
+      height: 750px;
+      border-radius: 4%;
+    }
+    
     
   .vision-father{
     display: grid;
@@ -10713,12 +10946,7 @@ transform: rotate(90deg);
 
   }
   
-  .div-vision-img{
-    width: 500px;
-    height: 750px;
-    border-radius: 4%;
-  }
-  
+
 
 .title-ceo{
 
