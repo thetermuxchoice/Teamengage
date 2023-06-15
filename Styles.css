@@ -11774,9 +11774,7 @@ transform: rotate(90deg);
 }
 
 
-  .new-section{
-    height: 650px;
-  }
+
 
   .new-section-div{
     padding-top: 30px;
@@ -11784,6 +11782,7 @@ transform: rotate(90deg);
 
 .slider-Training{
   width: 1000px;
+  margin-top: 10%;
 }
 
 .slider-T{
@@ -12438,7 +12437,8 @@ transform: rotate(90deg);
   }
 
   .about-home-wrap h2{
-    font-size: 50px;
+    font-size: 40px;
+    padding-bottom: 15px;
   }
   
   .aboutr p{
