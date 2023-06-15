@@ -11764,7 +11764,7 @@ transform: rotate(90deg);
     background-color: #181717;
     width: 100%;
     overflow: hidden;
-    height: 800px;
+    min-height: 100vh;
     margin-top: 100px;
 
   }
