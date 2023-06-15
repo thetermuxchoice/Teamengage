@@ -8,6 +8,13 @@
   src: url("fonts/Inter-Medium.ttf");
 }
 
+
+@font-face {
+  font-family: "Inter2";
+  src: url("fonts/Inter-Regular.ttf");
+}
+
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -6020,6 +6027,9 @@ text-align: center;
     padding-top: 10px !important;
   }
 
+
+  
+
   .button-price-wrap{
     width: 100%;
     display: flex;
@@ -7005,7 +7015,6 @@ padding-top: 30px;
   position: sticky;
   top: 0;
 
-  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
   padding-top: 15px;
   display: flex;
   padding-bottom: 15px;
@@ -7126,10 +7135,14 @@ padding-top: 30px;
   color:#c53535 ;
 
   padding:5px 0px;
+
 }
 
 .nav-item-title:hover {
   color: #e25c25 ;
+  border-bottom:3px solid;
+  border-color: #c53535;
+  transition: all 0.1s ease-in-out;
 }
 
 .nav-item-title.white-nav {
@@ -12368,9 +12381,12 @@ transform: rotate(90deg);
   }
 
   .about-home-wrap h2{
-    font-size: 40px;
+    font-size: 50px;
   }
   
+  .aboutr p{
+    margin-top: -40px;
+  }
   
 
   .background-1-home {
@@ -12710,6 +12726,32 @@ transform: rotate(90deg);
     font-size: 80px;
   }
 
+  
+  .about-home-wrap h2{
+    font-size: 40px;
+    padding:50px 0px;
+  }
+
+
+  .heading-banner-56-px {
+    font-size: 126px;
+    padding-top: 20px;
+
+  }
+
+  .img-vision{
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-vision img{
+    margin-left: 20px;
+    width: 75%;
+    height: 100%;
+  }
+
+
+
   .img-elipse{
     position: absolute;
     top: 68%;
@@ -12872,26 +12914,27 @@ padding-top: 10px;
     .vision-text-paragrah-div{
       color: #000;
       display: grid;
-      grid-template-columns: 15% 85%;
-      padding-top: -50px;
-      align-items: start;
+      grid-template-columns: 10% 90%;
+      padding-top: -30px;
+      align-items: center;
     }
 
     .vision-text-paragrah-div p{
       color: #000;
       margin-top: 0;
-      font-size: 22px;
+      font-size: 23px;
+      line-height: 28px;
       text-align: left;
       padding-left: 5px;
-      padding-right: 60px;
+      padding-right:100px;
       margin-bottom: 0;
 
     }
 
     .vision-text-paragrah-div img{
       color: #000;
-      width: 50%;
-      margin-left:10px ;
+      width: 70%;
+      margin-left:0px ;
     }
 
 
@@ -12930,7 +12973,7 @@ padding-top: 10px;
 .visions{
   padding-top: 10%;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 42% 58%;
 }
 
 
@@ -13253,6 +13296,14 @@ padding-top: 10px;
     height: 80%;
   }
 
+  .button-price-wrap{
+    margin-top: -20px;
+    padding: 0px 0px 0px 0px;
+
+  }
+
+
+
   .details-heading, .membership-heading {
     font-size: 72px;
   }
@@ -13263,6 +13314,31 @@ padding-top: 10px;
     font-size: 90px;
   }
 
+  .button-price-wrap{
+    padding-top: 20px;
+    padding: 0px 0px 0px 40px;
+
+  }
+
+  .about-home-wrap h2 {
+    font-size: 80px !important;
+
+}
+
+
+  
+  .text-home2 h3{
+    font-size: 54px;
+    margin-top: -15px;
+  }
+
+  .heading-banner-56-px {
+    font-size: 156px;
+
+    padding-top: 140px;
+  }
+
+
   .collection-list {
     padding:100px 0px ;
   }
@@ -13272,12 +13348,13 @@ padding-top: 10px;
 
   .about-home-wrap{
     padding: 90px 0px 0px 0px;
-    margin: 0px;
-    height: 70vh;
+    margin-bottom: 100px;
+    margin-left:0px;
+    height: 60vh;
     display: grid;
     width: 100%;
     position: relative;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 60% 40%;
   }
 
   .about-home-wrap h2{
@@ -13289,18 +13366,20 @@ padding-top: 10px;
 
   .about-home-wrap p{
     font-size: 30px;
-    padding:0px 70px 20px 70px;
+    padding:0px 70px 10px 70px;
     line-height: 42px;
+    margin-top: -10px;
+    font-family: "Inter2";
   }
 
   .about-home-wrap div{
-    margin-left: 34px;
-
+    margin-left: 14px;
+    margin-top: -20px;
   }
 
   .img-elipse{
-    top:68%;
-    left:48%;
+    top:92%;
+    left:56%;
   }
 
   
@@ -13310,7 +13389,7 @@ padding-top: 10px;
     background-size: cover;
     clip-path: polygon(50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%, 0 20%);
     height: 120% ;
-    width:70%;
+    width:80%;
 
   margin-top: -100px;
   margin-left: 100px;
@@ -13318,12 +13397,14 @@ padding-top: 10px;
   }
 
   .parapraph-banner-wrap p{
-    margin-top: 10px;
-    font-size: 28px;
+
+
+    font-size: 36px;
   }
 
   .new-section{
     height: 800px;
+    margin-top: 0px;
   }
 
   .new-section-div{
@@ -13365,17 +13446,17 @@ padding-top: 10px;
       color: #000;
       display: grid;
       grid-template-columns: 15% 85%;
-      padding-top: 30px;
+      padding-top: 10px;
     }
 
     .vision-text-paragrah-div p{
       color: #000;
       margin-top: 0;
-      font-size: 28px;
+      font-size: 25px;
       line-height: 38px;
       text-align: left;
       padding-left: 20px;
-      padding-right: 80px;
+      padding-right: 110px;
       margin-bottom: 0;
 
     }
@@ -13383,28 +13464,38 @@ padding-top: 10px;
     .vision-text-paragrah-div img{
       color: #000;
       width: 100%;
-
+      
     }
 
 
     .img-vision img{
-      height: 80%;
+      height: 97%;
+      width: 65%;
     }
     
   .vision-father{
     display: grid;
-    height: 80%;
+    height: 60%;
   }
   
   .div-vision-img{
     width: 600px;
-    height: 800px;
+    height: 600px;
     border-radius: 4%;
   }
   
+.div-vision-imgs{
+display:flex;
+align-items: center;
+height: 100%;
+justify-content: center;
+}
+
 
 .div-vision-imgs img{
-  width: 70%;
+  width: 50%;
+  display: block;
+  margin: auto;
 }
 
 .title-ceo{
@@ -13429,9 +13520,10 @@ padding-top: 10px;
 
   .visions{
     padding-top: 16%;
+    padding-bottom: 5%;
     display: grid;
     height: 80%;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
   }
 
 
@@ -13445,6 +13537,7 @@ padding-top: 10px;
     height: 140% !important;
     left: -60% !important;
     position: absolute;
+    overflow: hidden;
     }
 
   .nav-menu-wrapper{
@@ -13455,12 +13548,18 @@ padding-top: 10px;
     margin-left: 48px;
   }
   
+
+  .text-home2 h2{
+    margin-top: -80px;
+  }
+  
+
   .content-banner-home-1{
     width: 100%;
     position: relative;
     display: grid;
-    grid-template-columns: 40% 30% 30% !important;
-    padding-top: 10px;
+    grid-template-columns: 50% 20% 30% !important;
+
     padding-bottom: 500px;
   }
 
@@ -13473,12 +13572,12 @@ padding-top: 10px;
   }
   
 .position{
-  top:38% ;
-  left:65% ;
+  top:35% ;
+  left:70% ;
 }
 
 .explore-div{
-  margin-top: 50%;
+  margin-top: 25%;
 }
 
   .wrapper{
@@ -13620,7 +13719,7 @@ padding-top: 10px;
   }
 
   .content-banner-home-1 {
-    top: -40px;
+    top: 20px;
   }
 
   .background-img-4 {

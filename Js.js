@@ -31,15 +31,7 @@ const observer = new IntersectionObserver(entries => {
   }
 });
 
-const observer2 = new IntersectionObserver(entries => {
-    if (entries[0].isIntersecting) {
-      console.log('El usuario ha entrado en el contenedor2');
-      console.log()
-      $home.classList.remove('navbarColor')
-      $home.classList.add('navbarColor2')
-    }
-  });
-  
+
 
 observer.observe($circulo);
 observer2.observe($circulo);
