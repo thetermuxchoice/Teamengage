@@ -17,8 +17,13 @@
 @media screen and (min-width:1600px) and (max-width:1919px){
 
 .button-price-wrap{
-  padding: 4% 0% 0% 1% !important;
-  margin-top: 0px;
+  padding: 4% 0% 5% 1% !important;
+  margin-bottom: 5%;
+}
+
+
+.slider-Training{
+  margin-top: 1% !important;
 }
 
 
@@ -12845,7 +12850,7 @@ transform: rotate(90deg);
 
 
   .new-section{
-    height: 800px;
+    height: 900px;
   }
 
   .new-section-div{
@@ -12864,12 +12869,12 @@ transform: rotate(90deg);
 .slider-Training{
   overflow: hidden;
   width: 1300px;
-
+  min-height: 680px;
 }
 
 .slider-T{
   width: 1300px;
-  height: 480px;
+  min-height: 480px;
   display: flex;
   transform: translateX(var(--slide-transform));
   transition: var(--transition);
@@ -12910,7 +12915,6 @@ transform: rotate(90deg);
   width: 100%;
   display: flex;
   justify-content: center;
-
   
 }
 
