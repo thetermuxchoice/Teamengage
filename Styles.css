@@ -1934,21 +1934,11 @@ grid-template-columns: 50% 50%;
   }
 }
 
-@media screen and (max-width: 479px)  {
-  .w-container {
-    max-width: none;
-  }
-
-  .collection-list {
-    padding:60px 20px 40px 20px;
-    margin-top:-100px;
-  }
-
-
-
+@media screen and (min-width:281px) and (max-width:390px){
+  
   .aboutr{
 
-    height: 70vh;
+    height: 70vh !important;
     width: 100%;
     padding: 0px 30px;
     line-height: 40px;
@@ -1975,7 +1965,68 @@ grid-template-columns: 50% 50%;
 
   .aboutr div:last-child{
     position: absolute;
-    top: 170%;
+    top: 174% !important;
+    left:-1%;
+  }
+
+
+
+  .slider2{
+    background-image: url("assets/Slider-1.jpg");
+    background-size: cover;
+    clip-path: polygon(50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%, 0 20%);
+    height: 340px !important;
+    width: 75%;
+    margin-left: 15%;
+    margin-right: 10px;
+    margin-top: 10px !important;
+    animation: animate2 14s infinite ease-in-out;
+  }
+}
+
+
+@media screen and (max-width: 479px)  {
+  .w-container {
+    max-width: none;
+  }
+
+  .collection-list {
+    padding:60px 20px 40px 20px;
+    margin-top:-100px;
+  }
+
+
+
+  .aboutr{
+
+    height: 50vh;
+    width: 100%;
+    padding: 0px 30px;
+    line-height: 40px;
+    color: #000;
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+  }
+
+.aboutr p{
+  font-size: 18px;
+  text-align: center;
+
+}
+
+.aboutr h2{
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+
+
+  .aboutr div:last-child{
+    position: absolute;
+    top: 220% ;
     left:-1%;
   }
 
@@ -1987,9 +2038,9 @@ grid-template-columns: 50% 50%;
     clip-path: polygon(50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%, 0 20%);
     height: 500px ;
     width: 75%;
-    margin-left: 70px;
+    margin-left: 15%;
     margin-right: 10px;
-    margin-top: -130px;
+margin-top: -4px;
     animation: animate2 14s infinite ease-in-out;
   }
 
@@ -5845,38 +5896,9 @@ text-align: center;
 
 
 
-  .aboutr{
-
-    height: 70vh;
-    width: 100%;
-    padding: 0px 30px;
-    line-height: 40px;
-    color: #000;
-    margin-top: 40px;
-    text-align: center;
-    position: relative;
-  }
-
-.aboutr p{
-  font-size: 18px;
-  text-align: center;
-
-}
-
-.aboutr h2{
-  color: #000;
-  font-size: 30px;
-  font-weight: bold;
-}
 
 
 
-
-  .aboutr div:last-child{
-    position: absolute;
-    top: 170%;
-    left:-1%;
-  }
 
   .about-home-wrap{
 
@@ -5942,7 +5964,7 @@ text-align: center;
   
 .title-ceo{
   position: absolute;
-  top: -116%;
+  top: -580px;
   width: 100%;
   font-size: 26px;
   display: flex;
