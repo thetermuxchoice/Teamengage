@@ -21,6 +21,17 @@
   margin-top: 0px;
 }
 
+
+
+.button-slider{
+  margin-bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  
+}
+
 }
 html {
   -ms-text-size-adjust: 100%;
@@ -12847,7 +12858,6 @@ transform: rotate(90deg);
   width: 100%;
   display: grid;
   justify-content: center;
-  padding-top: 40px;
   padding-bottom: 50px;
 }
   
