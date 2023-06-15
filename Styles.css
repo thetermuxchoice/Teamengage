@@ -151,7 +151,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   flex-direction: column-reverse;
   min-width: 100%;
   height: 100%;
-  background-color: #181717;
   border-radius: 4%;
   align-items: center;
   opacity: 100;
@@ -190,7 +189,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 
 .new-section{
-  background-color: #181717;
+  background-color: #262727 !important;
   width: 100%;
   overflow: hidden;
   height: 950px;
@@ -1302,7 +1301,7 @@ textarea.w-input, textarea.w-select {
   
 
   .new-section{
-    background-color: #181717;
+    background-color: #262727 ;
     width: 100%;
     overflow: hidden;
     height: 700px;
@@ -1355,7 +1354,6 @@ textarea.w-input, textarea.w-select {
 .div-1{
   display: flex;
   min-width: 100%;
-  background-color: #181717;
   border-radius: 4%;
   align-items: center;
   opacity: 100;
@@ -2995,7 +2993,7 @@ font-size: 24px;
   
 
   .new-section{
-    background-color: #181717;
+    background-color: #262727 ;
     width: 100%;
     overflow: hidden;
     height: 650px;
@@ -3047,7 +3045,6 @@ font-size: 24px;
     display: flex;
     min-width: 100%;
     height: 100%;
-    background-color: #181717;
     border-radius: 4%;
     align-items: center;
     opacity: 100;
@@ -3193,6 +3190,7 @@ font-size: 24px;
 
 .aboutr h2{
   color: #000;
+
 }
 
 
@@ -5441,7 +5439,7 @@ text-align: center;
 }
 
 
-@media screen and (max-width: 600px) and (min-width: 540px){
+@media screen and (max-width: 767px) and (min-width: 540px){
 
   .content-banner-home-1 {
     width: 100%;
@@ -5544,7 +5542,6 @@ margin-top: -2px !important;
     flex-direction: column-reverse;
     min-width: 100%;
     height: 100%;
-    background-color: #181717;
     border-radius: 4%;
     align-items: center;
     opacity: 100;
@@ -5866,7 +5863,7 @@ margin-top: -2px !important;
 
 
   .new-section{
-    background-color: #181717;
+    background-color: #262727 ;
     width: 100%;
     overflow: hidden;
     height: 950px;
@@ -5922,7 +5919,6 @@ margin-top: -2px !important;
     flex-direction: column-reverse;
     min-width: 100%;
     height: 100%;
-    background-color: #181717;
     border-radius: 4%;
     align-items: center;
     opacity: 100;
@@ -11777,7 +11773,7 @@ transform: rotate(90deg);
   }
 
   .new-section{
-    background-color: #181717;
+    background-color: #262727 ;
     width: 100%;
     overflow: hidden;
     min-height: 100vh;
@@ -12454,7 +12450,7 @@ transform: rotate(90deg);
 
   .about-home-wrap h2{
     font-size: 40px;
-    padding-bottom: 15px;
+    padding-bottom: 8%;
   }
   
   .aboutr p{
@@ -12788,6 +12784,12 @@ transform: rotate(90deg);
     width: 65%;
   }
 
+  .collection-list-wrapper {
+    padding:50px 20px 0px 20px;
+    margin-top: -10%;
+  }
+
+
   ._404 {
     font-size: 120px;
   }
@@ -12888,7 +12890,6 @@ transform: rotate(90deg);
   display: flex;
   min-width: 100%;
   height: 100%;
-  background-color: #181717;
   border-radius: 4%;
   align-items: center;
   opacity: 100;
@@ -13385,27 +13386,70 @@ padding-top: 10px;
     font-size: 90px;
   }
 
-  .button-price-wrap{
-    padding: 4% 0% 0% 1%;
+  .collection-list-wrapper {
+    margin-top: -10%;
+}
 
+  .button-slider{
+      margin-top: 4%;
   }
 
+  .about-home-wrap div {
+    padding: 4% 0% 0% 2%;
+
+}
   .about-home-wrap h2 {
     font-size: 80px !important;
 
 }
 
+.slide-div{
+  margin-top: -6%;
+}
 
+.new-section h2 {
+  font-size: 70px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
   
   .text-home2 h3{
     font-size: 54px;
     margin-top: -15px;
   }
 
+.pricing-home-wrap{
+  margin-top: 2%;
+
+}
+
+.section-title{
+  max-width: 100%;
+  margin-top: 20%;
+  
+}
+
+.base-container{
+  margin-bottom: 5%;
+}
+
+.section-title h6{
+  font-size: 30px;
+}
+
+.section-title h2,h1,h3{
+  font-size: 70px;
+  
+}
+
   .heading-banner-56-px {
     font-size: 156px;
 
     padding-top: 140px;
+  }
+
+  .base-container{
+    height: 100vh;
   }
 
 
@@ -13473,6 +13517,7 @@ padding-top: 10px;
   }
 
   .new-section{
+    background-color: #262727 ;
     height: 800px;
     margin-top: 0px;
   }
@@ -13611,7 +13656,7 @@ justify-content: center;
     }
 
   .nav-menu-wrapper{
-    padding: 0 2%;
+    padding: 0 1% !important;
   }
 
   .text-home2{
