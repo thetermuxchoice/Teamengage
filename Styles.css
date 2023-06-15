@@ -13436,7 +13436,7 @@ padding-top: 10px;
 }
 
 .slide-div{
-  margin-top: -6%;
+  margin-top: -3%;
 }
 
 .new-section h2 {
@@ -13457,12 +13457,12 @@ padding-top: 10px;
 
 .section-title{
   max-width: 100%;
-  margin-top: 20%;
+  margin-top: -2%;
   
 }
 
 .base-container{
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
 
 .section-title h6{
@@ -13550,12 +13550,12 @@ padding-top: 10px;
 
   .new-section{
     background-color: #262727 ;
-    height: 800px;
+    height: 100vh;
     margin-top: 0px;
   }
 
   .new-section-div{
-    padding-top: 80px;
+    padding-top: 3%;
   }
   
 
