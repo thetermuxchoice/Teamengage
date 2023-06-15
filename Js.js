@@ -7,7 +7,6 @@ const $btnClose=document.getElementById('btn-close');
 const $btnModal=document.getElementById('btn-modal');
 const $btnModal2=document.getElementById('btn-modal2');
 const $btnModal3=document.getElementById('btn-modal3');
-const $btnModal5=document.getElementById('btn-modal5');
 const $btnModal4=document.getElementById('btn-modal4');
 const $btnA=document.getElementById('btn-a');
 const $btnB=document.getElementById('btn-b');
@@ -111,12 +110,6 @@ $btnModal.addEventListener("click",(e)=>{
     
 })
 
-
-$btnModal5.addEventListener("click",(e)=>{
-    e.preventDefault()
-    $modal.style.display='block'
-    
-})
 
 $btnModal4.addEventListener("click",(e)=>{
     e.preventDefault()
