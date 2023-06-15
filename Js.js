@@ -34,7 +34,6 @@ const observer = new IntersectionObserver(entries => {
 
 
 observer.observe($circulo);
-observer2.observe($circulo);
 
 
 const sliderElements=document.querySelectorAll('.div-1')
