@@ -8,10 +8,12 @@ const $btnModal=document.getElementById('btn-modal');
 const $btnModal2=document.getElementById('btn-modal2');
 const $btnModal3=document.getElementById('btn-modal3');
 const $btnModal4=document.getElementById('btn-modal4');
+const $btnModal5=document.getElementById('btn-modal5');
 const $btnA=document.getElementById('btn-a');
 const $btnB=document.getElementById('btn-b');
 const $modal=document.getElementById('div-modal');
 const $sliders=document.getElementById('imagen-slider');
+let $slidersImagen=document.getElementById('imagen-sliders');
 const $buttons=document.getElementById('buttons');
 const $imagen1=document.getElementById('imagen-1');
 const $imagen2=document.getElementById('imagen-2');
@@ -20,8 +22,37 @@ const $div1=document.getElementById('div1');
 const $circulo=document.getElementById('circulo');
 const $section2=document.getElementById('section2');
 const $home=document.getElementById('home');
+let counter=0
+let counter2=0
 
+const changeImagen=()=>{
 
+    console.log($slidersImagen)
+    console.log($slidersImagen)
+    if(counter===0){
+        $slidersImagen.src='assets/Mike-3.png'
+        counter++
+    }else if (counter!==0){
+        $slidersImagen.src='assets/Danelle-3.png'
+        counter--
+    }
+
+}
+
+const changeClass=()=>{
+    if(counter2===0){
+        $slidersImagen.style.opacity='0'
+        $slidersImagen.style.transition='all 2s'
+        counter2++
+    } else if (counter2 !==0){
+        $slidersImagen.style.opacity='100'
+        $slidersImagen.style.transition='all 2s'
+        counter2--
+    }
+}
+
+setInterval(changeImagen,4000)
+setInterval(changeClass,2000)
 
 const observer = new IntersectionObserver(entries => {
   if (entries[0].isIntersecting) {
@@ -105,6 +136,12 @@ $btnClose.addEventListener("click",(e)=>{
 /*Buttons to open the modal*/
 
 $btnModal.addEventListener("click",(e)=>{
+    e.preventDefault()
+    $modal.style.display='block'
+    
+})
+
+$btnModal5.addEventListener("click",(e)=>{
     e.preventDefault()
     $modal.style.display='block'
     
