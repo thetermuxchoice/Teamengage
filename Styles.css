@@ -6548,10 +6548,6 @@ margin-top: -2px !important;
   }
   
 
-  .collection-list-wrapper {
-  }
-
-
   .redes-home{
     background-color: #FFF;
     padding: 10px;
@@ -6634,7 +6630,7 @@ margin-top: -2px !important;
     height: 80%;
 
     border-radius: 7%;
-    margin-top: -8%;
+    margin-top: -16%;
   }
   
   
@@ -6907,7 +6903,7 @@ margin-top: -2px !important;
 }
 
 .heading-banner-57-px{
-  font-size: 56px;
+  font-size: 50px;
 }
 
 .second-div-home{
@@ -6915,7 +6911,7 @@ margin-top: -2px !important;
   height: max-content;
   justify-content: space-between;
   align-items: start;
-
+  margin-top: -34%;
 }
 
 .redes-home5{
@@ -6927,7 +6923,7 @@ margin-top: -2px !important;
 
 .explore-div2{
   display: flex;
-  margin-top: 45%;
+  margin-top: 85%;
   align-items: center;
   justify-content: space-around;
 
@@ -6951,7 +6947,7 @@ margin-top: -2px !important;
 
 .text-home4{
   margin-left: 4%;
-  margin-top: -7%;
+  margin-top: -8%;
 
 }
 
@@ -7818,7 +7814,7 @@ background-color: #ffffff4f;
   height: 100vh;
   width: 100%;
   background-size: cover;
-  background-image: url('/assets/slider-1.svg');
+  background-image: url('assets/slider-1.svg');
 
   box-shadow: 1px 1px 20px black
 }
