@@ -135,7 +135,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 80%;
 
   border-radius: 7%;
-  margin-top: 0px !important;
+  margin-top: -4% !important;
 }
 
 .text-home2{
@@ -2022,8 +2022,34 @@ grid-template-columns: 50% 50%;
     width: 100vw;
     margin-top: 15%;
   }
-  
 
+
+
+  .explore-div{
+    position: absolute ;
+    display: flex;
+    left: 2%;
+    top: 60% !important;
+    font-size: 14px;
+  }
+
+
+  .text-home :nth-child(4){
+    width: 70%;
+    height: 9vh;
+  }
+
+  .text-home :nth-child(4) img{
+    width: 18px;
+  }
+  
+  .text-home :nth-child(4) button{
+    font-size: 14px;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .aboutr{
     width: 100%;
@@ -2190,7 +2216,7 @@ grid-template-columns: 50% 50%;
     position: absolute ;
     display: flex;
     left: 2%;
-    top: 67% !important;
+    top: 69% !important;
     font-size: 14px;
   }
 
@@ -5991,8 +6017,9 @@ margin-top: -2px !important;
     width: 100%;
     overflow: hidden;
     height: 950px;
-    margin-top: 20px;
-
+    padding-top: 2%;
+    min-height: min-content;
+    padding-bottom: 3%;
   }
 
   .new-section-div{
@@ -6008,6 +6035,7 @@ margin-top: -2px !important;
 
   .slide-div{
     width: 100%;
+
     display: grid;
     justify-content: center;
 
@@ -6015,7 +6043,8 @@ margin-top: -2px !important;
     
   .slider-Training{
     overflow: hidden;
-    width: 450px
+    width: 450px;
+
   }
   
   .slider-T{
@@ -6033,7 +6062,7 @@ margin-top: -2px !important;
     height: 80%;
 
     border-radius: 7%;
-    margin-top: 20px;
+    margin-top: -8%;
   }
   
   
@@ -6046,7 +6075,6 @@ margin-top: -2px !important;
     border-radius: 4%;
     align-items: center;
     opacity: 100;
-    padding: 10px;
   }
   
   
@@ -6203,20 +6231,27 @@ margin-top: -2px !important;
 
    .content-banner-home-1 {
     width: 100%;
+    min-height: 100vh;
     position: relative;
     display: grid;
     text-align: center;
     grid-template-columns: 100%;
     padding-top: 10px !important;
-    margin-top: -30px !important;
+    margin-top: -9% !important;
   }
 
+.text-home{
+  margin-top: 15%;
+}
+  
 
   .text-home2 :nth-child(4){
     display: flex;
     justify-content: start;
     padding-left: 25px;
     padding-top: 15px;
+    margin-top: 2%;
+    font-size: 16px;
   }
 
 
@@ -12018,7 +12053,7 @@ transform: rotate(90deg);
   }
 
   .explore-div{
-    margin-top: 24%;
+    margin-top: 60%;
   }
 
   .fondo{
@@ -12043,7 +12078,7 @@ transform: rotate(90deg);
 
   .position{
     position: absolute;
-    top: 42% ;
+    top: 49% ;
     left: 71%;
     transform: translate(-50%,-50%);
   }
@@ -16320,7 +16355,7 @@ justify-content: center;
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 0px;
+    margin-top: -5%;
     
   }
   
