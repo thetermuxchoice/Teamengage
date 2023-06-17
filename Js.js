@@ -9,7 +9,7 @@ const $btnModal2=document.getElementById('btn-modal2');
 const $btnModal3=document.getElementById('btn-modal3');
 const $btnModal4=document.getElementById('btn-modal4');
 const $btnModal5=document.getElementById('btn-modal5');
-const $btnModal6=document.getElementById('btn-modal6');
+const $btnModal1=document.getElementById('btn-modal1');
 const $btnModal7=document.getElementById('btn-modal7');
 const $btnA=document.getElementById('btn-a');
 const $btnB=document.getElementById('btn-b');
@@ -28,9 +28,6 @@ let counter=0
 let counter2=0
 
 const changeImagen=()=>{
-
-    console.log($slidersImagen)
-    console.log($slidersImagen)
     if(counter===0){
         $slidersImagen.src='assets/Mike-3.png'
         counter++
@@ -59,7 +56,7 @@ setInterval(changeClass,2000)
 const observer = new IntersectionObserver(entries => {
   if (entries[0].isIntersecting) {
     console.log('El usuario ha entrado en el contenedor');
-    $circulo.classList.add('scrollAdd')
+
   }
 });
 
@@ -143,17 +140,19 @@ $btnModal.addEventListener("click",(e)=>{
     
 })
 
+$btnModal1.addEventListener("click",(e)=>{
+    e.preventDefault()
+    $modal.style.display='block'
+    
+})
+
 $btnModal7.addEventListener("click",(e)=>{
     e.preventDefault()
     $modal.style.display='block'
     
 })
 
-$btnModal6.addEventListener("click",(e)=>{
-    e.preventDefault()
-    $modal.style.display='block'
-    
-})
+
 
 $btnModal5.addEventListener("click",(e)=>{
     e.preventDefault()

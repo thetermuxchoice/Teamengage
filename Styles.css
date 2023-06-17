@@ -2208,6 +2208,7 @@ grid-template-columns: 50% 50%;
     justify-content: center;
     width: 100vw;
     margin-top: 15%;
+    z-index: 1036;
   }
 
   .heading-banner-57-px{
@@ -2342,6 +2343,7 @@ grid-template-columns: 50% 50%;
     justify-content: center;
     width: 100vw;
     margin-top: 15%;
+    z-index: 1036;
   }
   
 
@@ -6649,7 +6651,7 @@ margin-top: -2px !important;
 
   .redes-home{
     background-color: #FFF;
-    margin-top: -15%;
+    margin-top: -1%;
     width: 100%;
     display: flex;
   
@@ -6953,6 +6955,21 @@ margin-top: -2px !important;
   margin-top: -16px !important;
 }
 
+.button-price-wrap5{
+  position: relative;
+  width: 60%;
+  font-size: 12px;
+}
+
+.button-price-wrap5 button{
+display: flex;
+  font-size: 14px;
+}
+
+.button-price-wrap5 button img{
+  width: 22px;
+  }
+  
 .text-home h3{
   margin-top: -4% !important;
 }
@@ -7005,6 +7022,8 @@ margin-top: -2px !important;
 .heading-banner-57-px{
   font-size: 48px;
   padding-top: 2%;
+  margin-top: 0 !important;
+  margin-bottom: -4% !important;
 }
 
 .second-div-home{
@@ -7017,7 +7036,7 @@ margin-top: -2px !important;
 }
 
 .redes-home5{
-  margin-top: -10%;
+  margin-top: -1%;
   display: grid;
   padding: 0;
   align-items: start;
@@ -7045,7 +7064,7 @@ margin-top: -2px !important;
 
 .text-home4 h3{
   font-size: 22px;
-  padding: 2% 0%;
+  padding: 0% 0%;
 }
 
 .text-home4{
