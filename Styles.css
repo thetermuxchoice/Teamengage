@@ -7000,6 +7000,7 @@ display: flex;
   display: grid;
   align-items: center;
   min-height: 90vh ;
+  margin-top: 5%;
 }
 
 .button-home2{
