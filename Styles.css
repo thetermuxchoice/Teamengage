@@ -130,8 +130,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 
 .redes-home :first-child{
-  padding: 0 !important;
-  font-size: 14px;
+  padding-bottom: 10px !important;
+  font-size: 10px !important;
 }
 
 .explore-div2 {
@@ -473,7 +473,7 @@ font-weight: bold;
     min-height: 100% ;
     display: grid;
 
-    margin-bottom: 70%;
+    margin-bottom: 20%;
     position: relative;
     justify-content: center;
     align-content: center;
@@ -5988,6 +5988,8 @@ text-align: center;
     padding-top: 5px;
   }
 
+
+
   .form-modal textarea{
     border: 1px solid  #c53535;
     outline: none;
@@ -6218,7 +6220,6 @@ margin-top: -2px !important;
     background-color: #818181 !important;
     display: flex !important;
     align-items: end !important;
-    margin-top: -40px;
     justify-content: start !important;
   }
 
@@ -6466,11 +6467,11 @@ margin-top: -2px !important;
     background-image: url("assets/Slider-1.jpg");
     background-size: cover;
     clip-path: polygon(50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%, 0 20%);
-    height: 450px ;
+    min-height: 100% ;
     width: 65%;
-    margin-left: 90px;
+    margin-left: 15%;
     margin-right: 10px;
-    margin-top: -100px;
+    margin-top: 0;
     animation: animate2 14s infinite ease-in-out;
   }
 
@@ -6600,7 +6601,12 @@ margin-top: -2px !important;
     font-size: 1.5rem
   }
 
-  
+    
+  .info-modal2-ul{
+    width: 80% !important;
+    margin-left: 12%;
+  }
+
   .info-modal2-ul li{
     color: white;
     width: 100%;
@@ -6775,7 +6781,7 @@ margin-top: -2px !important;
     display: grid;
 
     position: relative;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
   }
   
 
@@ -6819,6 +6825,7 @@ margin-top: -2px !important;
   
   .vision-father{
     display: grid;
+    padding-bottom:6% ;
   }
   
   .title-ceo2{
@@ -6996,7 +7003,7 @@ margin-top: -2px !important;
 }
 
 .heading-banner-57-px{
-  font-size: 32px;
+  font-size: 39px;
 }
 
 .second-div-home{
@@ -7016,7 +7023,7 @@ margin-top: -2px !important;
 
 .explore-div2{
   display: flex;
-  margin-top: 45%;
+  margin-top: 0%;
   align-items: center;
   justify-content: space-around;
 
@@ -7034,7 +7041,7 @@ margin-top: -2px !important;
 }
 
 .text-home4 h3{
-  font-size: 26px;
+  font-size: 22px;
   padding: 2% 0%;
 }
 
@@ -7942,7 +7949,7 @@ background-color: #ffffff4f;
 .info-modal2-ul li{
   list-style: none;
   margin-left: 0;
-  margin-right: 5%;
+  margin-right: 2%;
 }
 
 .form-modal{
@@ -14416,7 +14423,7 @@ padding-top: 10px;
     display: grid;
     grid-template-columns: 8% 92% ;
     align-items: center;
-    margin-top: -35%;
+    margin-top: -25%;
   }
 
 .form-modal{
@@ -14455,12 +14462,12 @@ padding-top: 10px;
   }
   
   .title-modal{
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     color: white;
   }
   
   .p-modal{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
   }
   
@@ -14476,7 +14483,7 @@ padding-top: 10px;
 }
 
 .informacion div:nth-child(5){
-  margin-top: -30%;
+  margin-top: -15%;
 }
 
 
@@ -17201,6 +17208,11 @@ justify-content: center;
 @media screen and (max-width: 479px)  {
   .section.background {
     background-size: auto 85%;
+  }
+
+  .redes-home :first-child{
+    margin-bottom: 12px !important;
+    font-size: 14px !important;
   }
 
   .nav-modal{
