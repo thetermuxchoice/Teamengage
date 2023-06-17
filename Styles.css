@@ -5916,7 +5916,7 @@ text-align: center;
     height: max-content;
     justify-content: space-between;
     align-items: start;
-    margin-top: -30%;
+    margin-top: 0%;
   }
   
   .redes-home5{
@@ -6603,8 +6603,8 @@ margin-top: -2px !important;
 
     
   .info-modal2-ul{
-    width: 80% !important;
-    margin-left: 12%;
+    width: 50% !important;
+    margin-left: 25%;
   }
 
   .info-modal2-ul li{
@@ -6649,7 +6649,7 @@ margin-top: -2px !important;
 
   .redes-home{
     background-color: #FFF;
-    padding: 10px;
+    margin-top: -15%;
     width: 100%;
     display: flex;
   
@@ -6667,7 +6667,7 @@ margin-top: -2px !important;
   }
 
   .visions{
-
+    padding-top: 15%;
     display: grid;
   }
 
@@ -7003,18 +7003,20 @@ margin-top: -2px !important;
 }
 
 .heading-banner-57-px{
-  font-size: 39px;
+  font-size: 46px;
 }
 
 .second-div-home{
-  display: flex;
+  display: grid;
+  grid-template-columns: 25% 65%;
   height: max-content;
   justify-content: space-between;
   align-items: start;
-  margin-top: -30%;
+  margin-top: 0%;
 }
 
 .redes-home5{
+  margin-top: -10%;
   display: grid;
   padding: 0;
   align-items: start;
@@ -7023,7 +7025,7 @@ margin-top: -2px !important;
 
 .explore-div2{
   display: flex;
-  margin-top: 0%;
+  margin-top: -52%;
   align-items: center;
   justify-content: space-around;
 
@@ -7047,7 +7049,7 @@ margin-top: -2px !important;
 
 .text-home4{
   margin-left: 4%;
-  margin-top: -8%;
+  margin-top: 2%;
 
 }
 
