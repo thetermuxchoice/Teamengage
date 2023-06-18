@@ -5,6 +5,7 @@
 
 const $btnClose=document.getElementById('btn-close');
 const $btnModal=document.getElementById('btn-modal');
+const $btnModal6=document.getElementById('btn-modal6');
 const $btnModal2=document.getElementById('btn-modal2');
 const $btnModal3=document.getElementById('btn-modal3');
 const $btnModal4=document.getElementById('btn-modal4');
@@ -135,6 +136,12 @@ $btnClose.addEventListener("click",(e)=>{
 /*Buttons to open the modal*/
 
 $btnModal.addEventListener("click",(e)=>{
+    e.preventDefault()
+    $modal.style.display='block'
+    
+})
+
+$btnModal6.addEventListener("click",(e)=>{
     e.preventDefault()
     $modal.style.display='block'
     
