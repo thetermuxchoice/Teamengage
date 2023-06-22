@@ -6787,7 +6787,7 @@ width: 50%;
   .visions{
     display: grid;
     grid-template-columns: 50% 50%;
-    margin-top: 60%;
+    margin-top: 30%;
     margin-bottom: 15%;
   }
 
