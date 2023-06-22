@@ -2088,10 +2088,6 @@ grid-template-columns: 50% 50%;
     
   }
   
-.form-modal-button{
-  height: 25px;
-  
-}
 
 .primary-button{
   font-size: 14px !important;
@@ -8874,7 +8870,7 @@ background-color: #ffffff4f;
   width: 100%;
   background-size: cover;
   background-image: url('assets/slider-1.svg');
-
+  overflow-y: scroll;
   box-shadow: 1px 1px 20px black
 }
 .div-close{
